@@ -1,0 +1,97 @@
+
+
+    a{
+    margin-right: 7%;
+    color: whitesmoke;
+    text-decoration: none;
+    }
+    p{
+    color: white;
+    stroke-width: 10px;
+    stroke: black;
+    font-size: 23px;
+    }
+    h3{
+        color: white;
+    }
+    *{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    }
+    #logo-nav-div{
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 10px;
+    }
+    #logo-div{
+    width: 50%;
+    min-height: 50px;
+    background-color: black;
+    float: left;
+    padding-left: 2%;
+    line-height: 50px;
+    }
+    #nav-div{
+    width: 50%;
+    min-height: 50px;
+    padding-left: 2%;
+    background-color: black;
+    float: right;
+    line-height: 98px;
+    }
+    .clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    }
+
+    #main-div{
+    width: 100%;
+    min-height: 400px;
+    }
+    #main-div .box{
+    width: 20%;
+    min-height: 400px;
+    background-color: black;
+    float: left;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 6%;
+    padding-top: 2%;
+    }
+    #main-div .box:nth-child(1){
+    width: 100%;
+    max-height: 600px;
+    float: none;
+    padding-bottom: 2%;
+    }
+    #main-div .box:nth-child(2){
+        margin-left: 1%;
+    }
+    #main-div .box:nth-child(5){
+        margin-right: 0%;
+    }
+    #Sidebar-div{
+        width: 5%;
+        opacity: 50%;
+        min-height: 400px;
+        background-color: gray;
+        line-height: 50px;
+        text-align: center;
+        margin-bottom: 10px;
+        position: fixed;
+    }
+    #footer-div{
+    width: 100%;
+    min-height: 50px;
+    background-color: black;
+    text-align: center;
+    }
+    #wrapper-div{
+    width: 80%;
+    background-color: gray;
+    margin: auto;
+    }
